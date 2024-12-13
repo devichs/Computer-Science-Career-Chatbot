@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<!--Getting started with yes or no options-->
+	<category>
+	    <pattern>*</pattern>
+	    <template>
+	        Hello There! Welcome to CareerBot where you can find your Computer Science Career!
+	        Would you like help deciding on a Computer Science Career?
+	        <button>
+	            <text>Yes</text>
+	            <postback>yes</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>no</postback>
+            </button>
+        </template>
+    </category>
+    
+    <!--No-->
+    <category>
+        <pattern>no</pattern>
+        <template>
+            Well, I wish you luck and have a pleasant day!
+        </template>
+    </category>
+    
+    <!--Yes-->
+    <category>
+        <pattern>yes</pattern>
+        <template>
+            Great! You won't be disappointed!
+            Choose from the options below based on your interests in Computer Science!
+            <button>
+                <text>Computer and Information Research Scientists</text>
+                <postback>Computer and Information Research Scientists</postback>
+            </button>
+            <button>
+                <text>Computer Network Architects</text>
+                <postback>Computer Network Architects</postback>
+            </button>
+            <button>
+                <text>Software Developers, Quality Assurance Analysts, and Testers</text>
+                <postback>Software Developers, Quality Assurance Analysts, and Testers</postback>
+            </button>
+            <button>
+                <text>Database Administrators and Architects</text>
+                <postback>Database Administrators and Architects</postback>
+            </button>
+            <button>
+                <text>Information Security Analysts</text>
+                <postback>Information Security Analysts</postback>
+            </button>
+        </template>
+    </category>
+    
+    <!--Chat ends-->
+    <category>
+        <pattern>end</pattern>
+        <template>
+            Thank you! And good luck in your career!
+        </template>
+    </category>
+    
+    <!--Career Options-->
+    <category>
+        <pattern>^ Computer and Information Research Scientists ^</pattern>
+        <template>
+            <srai>Computer and Information Research Scientists</srai>
+            </template>
+    </category>
+        <category>
+        <pattern>^ Computer Network Architects ^</pattern>
+        <template>
+            <srai>Computer Network Architects</srai>
+            </template>
+    </category>
+        <category>
+        <pattern>^ Software Developers, Quality Assurance Analysts, and Testers ^</pattern>
+        <template>
+            <srai>Software Developers, Quality Assurance Analysts, and Testers</srai>
+            </template>
+    </category>
+        <category>
+        <pattern>^ Database Administrators and Architects ^</pattern>
+        <template>
+            <srai>Database Administrators and Architects</srai>
+            </template>
+    </category>
+        <category>
+        <pattern>^ Information Security Analysts ^</pattern>
+        <template>
+            <srai>Information Security Analysts</srai>
+            </template>
+    </category>
+</aiml>

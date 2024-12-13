@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- Machine Learning Path -->
+  <category>
+    <pattern>Computer Network Architects</pattern>
+    <template>
+        Great choice! 
+        Computer network architects design and implement data communication networks, including local area networks (LANs), wide area networks (WANs), and intranets.<br></br>
+        <link>
+            <text>Here's some more information!</text>
+            <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm/</url>
+        </link>
+        <button>
+            <text>End Conversation</text>
+            <postback>end</postback>
+        </button>
+    </template>
+  </category>
+</aiml>
