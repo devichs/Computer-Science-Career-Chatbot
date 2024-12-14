@@ -31,7 +31,8 @@
         <pattern>yes</pattern>
         <template>
             Great! You won't be disappointed!
-            Choose from the options below based on your interests in Computer Science!
+            The five choices below are the top grossing Computer Science positions today!
+            Choose an option and see if it's a fit for you!
             <button>
                 <text>Computer and Information Research Scientists</text>
                 <postback>Computer and Information Research Scientists</postback>
@@ -62,6 +63,22 @@
             Thank you! And good luck in your career!
         </template>
     </category>
+    
+    <!--Make another choice-->
+	<category>
+	    <pattern>more information</pattern>
+	    <template>
+            Would you like to make another choice?
+	        <button>
+	            <text>Yes</text>
+	            <postback>yes</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>no</postback>
+            </button>
+        </template>
+    </category>    
     
     <!--Career Options-->
     <category>

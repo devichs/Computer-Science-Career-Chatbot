@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- Machine Learning Path -->
+	<!-- Information Security Path -->
   <category>
     <pattern>Information Security Analysts</pattern>
     <template>
         Great choice! 
         Information security analysts plan and carry out security measures to protect an organization’s computer networks and systems.<br></br>
+        To make another choice type "more information".<br></br>
         <link>
-            <text>Here's some more information!</text>
+            <text>
+                Click this link to learn more information!
+                </text>
             <url>https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm/</url>
         </link>
-        <button>
-            <text>End Conversation</text>
-            <postback>end</postback>
-        </button>
-    </template>
-  </category>
+        </template>
+    </category>
 </aiml>

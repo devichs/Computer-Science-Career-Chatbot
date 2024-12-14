@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- Machine Learning Path -->
+	<!-- Database Administrators and Architects Path -->
   <category>
     <pattern>Database Administrators and Architects</pattern>
     <template>
         Great choice! 
         Database administrators and architects create or organize systems to store and secure data.<br></br>
+        To make another choice type "more information".<br></br>
         <link>
-            <text>Here's some more information!</text>
+            <text>Click this link for more information!</text>
             <url>https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm/</url>
         </link>
         <button>
