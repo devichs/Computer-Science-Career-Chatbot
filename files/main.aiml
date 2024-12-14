@@ -68,7 +68,7 @@
 	<category>
 	    <pattern>more information</pattern>
 	    <template>
-            Would you like to make another choice?
+            Would you like to make another choice based on a different interest?
 	        <button>
 	            <text>Yes</text>
 	            <postback>yes</postback>
