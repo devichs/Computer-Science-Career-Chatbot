@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!--Start interests-->
+	<category>
+	    <pattern>START INTERESTS CHECK</pattern>
+	    <template>
+	        <br></br>What are your Computer Science career Interests?
+	        <reply>
+	            <text>Research</text>
+	            <postback>Computer and Information Research Scientists</postback>
+	        </reply>
+	        <reply>
+	            <text>Networking</text>
+	            <postback>Computer Network Architects</postback>
+	        </reply>
+	        <reply>
+	            <text>Software</text>
+	            <postback>Software Developers, Quality Assurance Analysts, and Testers</postback>
+	        </reply>
+	        <reply>
+	            <text>Data</text>
+	            <postback>Database Administrators and Architects</postback>
+	        </reply>
+	        <reply>
+	            <text>Security</text>
+	            <postback>Information Security Analysts</postback>
+	        </reply>
+	    </template>
+	</category>
+</aiml>

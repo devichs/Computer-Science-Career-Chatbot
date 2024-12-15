@@ -6,13 +6,21 @@
     <template>
         Great choice! 
         Information security analysts plan and carry out security measures to protect an organization’s computer networks and systems.<br></br>
-        To make another choice type "more information".<br></br>
+        To research other careers click the button below.<br></br>
         <link>
             <text>
                 Click this link to learn more information!
                 </text>
             <url>https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm/</url>
         </link>
+        <button>
+            <text>Back to career choices!</text>
+            <postback>START INTERESTS CHECK</postback>
+        </button>
+        <button>
+            <text>End Conversation</text>
+            <postback>end</postback>
+        </button>        
         </template>
     </category>
 </aiml>

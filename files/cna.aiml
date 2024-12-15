@@ -6,11 +6,17 @@
     <template>
         Great choice! 
         Computer network architects design and implement data communication networks, including local area networks (LANs), wide area networks (WANs), and intranets.<br></br>
-        To make another choice type "more information".<br></br>
+        To research other careers click the button below.<br></br>
         <link>
-            <text>Click this link for more information!</text>
-            <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm/</url>
+            <text>
+                Click this link for more information!
+                </text>
+                <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm/</url>
         </link>
+        <button>
+            <text>Back to career choices!</text>
+            <postback>START INTERESTS CHECK</postback>
+        </button>
         <button>
             <text>End Conversation</text>
             <postback>end</postback>

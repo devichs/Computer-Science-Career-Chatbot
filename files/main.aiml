@@ -30,32 +30,15 @@
     <category>
         <pattern>yes</pattern>
         <template>
-            Great! You won't be disappointed!
-            The five choices below are the top grossing Computer Science positions today!
-            Choose an option and see if it's a fit for you!
+            Great!  You won't be disappointed!<br></br>
+            Lets check your career interests first!<br></br>
             <button>
-                <text>Computer and Information Research Scientists</text>
-                <postback>Computer and Information Research Scientists</postback>
-            </button>
-            <button>
-                <text>Computer Network Architects</text>
-                <postback>Computer Network Architects</postback>
-            </button>
-            <button>
-                <text>Software Developers, Quality Assurance Analysts, and Testers</text>
-                <postback>Software Developers, Quality Assurance Analysts, and Testers</postback>
-            </button>
-            <button>
-                <text>Database Administrators and Architects</text>
-                <postback>Database Administrators and Architects</postback>
-            </button>
-            <button>
-                <text>Information Security Analysts</text>
-                <postback>Information Security Analysts</postback>
+                <text>Start Interests Check</text>
+                <postback>START INTERESTS CHECK</postback>
             </button>
         </template>
     </category>
-    
+
     <!--Chat ends-->
     <category>
         <pattern>end</pattern>
@@ -63,52 +46,5 @@
             Thank you! And good luck in your career!
         </template>
     </category>
-    
-    <!--Make another choice-->
-	<category>
-	    <pattern>more information</pattern>
-	    <template>
-            Would you like to make another choice based on a different interest?
-	        <button>
-	            <text>Yes</text>
-	            <postback>yes</postback>
-            </button>
-            <button>
-                <text>No</text>
-                <postback>no</postback>
-            </button>
-        </template>
-    </category>    
-    
-    <!--Career Options-->
-    <category>
-        <pattern>^ Computer and Information Research Scientists ^</pattern>
-        <template>
-            <srai>Computer and Information Research Scientists</srai>
-            </template>
-    </category>
-        <category>
-        <pattern>^ Computer Network Architects ^</pattern>
-        <template>
-            <srai>Computer Network Architects</srai>
-            </template>
-    </category>
-        <category>
-        <pattern>^ Software Developers, Quality Assurance Analysts, and Testers ^</pattern>
-        <template>
-            <srai>Software Developers, Quality Assurance Analysts, and Testers</srai>
-            </template>
-    </category>
-        <category>
-        <pattern>^ Database Administrators and Architects ^</pattern>
-        <template>
-            <srai>Database Administrators and Architects</srai>
-            </template>
-    </category>
-        <category>
-        <pattern>^ Information Security Analysts ^</pattern>
-        <template>
-            <srai>Information Security Analysts</srai>
-            </template>
-    </category>
 </aiml>
+
